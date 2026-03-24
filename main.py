@@ -30,6 +30,7 @@ try:
     plt.ylabel('Mean Intl Student Ratio')
     plt.xticks(rotation=0)
     plt.grid(axis='y', linestyle='--', alpha=0.7)
+    plt.savefig('visual_analysis.png', dpi=300, bbox_inches='tight')
     plt.show()
 
 except FileNotFoundError:
